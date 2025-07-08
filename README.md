@@ -44,3 +44,36 @@ print("Number of times combination appeared historically:", check_historical_occ
 
 Historical lottery data is from the [Kaggle Lottery Dataset](https://www.kaggle.com/datasets/datascienceai/lottery-dataset).
 
+Sure! Here’s a concise **“Streamlit App”** section you can add to your main README:
+
+---
+
+## Streamlit App
+
+This project includes an interactive Streamlit web app that allows users to:
+
+* Input their 6 unique lottery numbers
+* Select the number of tickets to play
+* Calculate the probability of winning the big prize
+* Check historical occurrence of their numbers in past lottery draws
+
+### How to run the Streamlit app
+
+1. Make sure you have Streamlit installed:
+
+```bash
+pip install streamlit pandas
+```
+
+2. Ensure the historical data file `649.csv` is in the project folder or update the path in the app code.
+
+3. Run the app with:
+
+```bash
+streamlit run app.py
+```
+
+4. Your default browser will open the interactive app interface.
+
+
+
